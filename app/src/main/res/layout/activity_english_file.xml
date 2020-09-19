@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".EnglishFile">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="#80ffffff"
+        app:logo="@drawable/icon2"
+        app:title="@string/app_name"
+        app:titleMarginStart="30dp"
+        app:titleTextColor="@android:color/black" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/atitude_sha"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/back3"
+            android:fontFamily="serif"
+            android:padding="10dp"
+            android:text="Attitude Shayri"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/bday_sha"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/back3"
+            android:fontFamily="serif"
+            android:padding="10dp"
+            android:text="B'day Shayri"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/frnd_sha"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/back3"
+            android:fontFamily="serif"
+            android:padding="10dp"
+            android:text="Friend Shayri"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/funny_sha"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/back3"
+            android:fontFamily="serif"
+            android:padding="10dp"
+            android:text="Funny Shayri"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/love_sha"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/back3"
+            android:fontFamily="serif"
+            android:padding="10dp"
+            android:text="Love Shayri"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/motivational_sha"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/back3"
+            android:fontFamily="serif"
+            android:padding="10dp"
+            android:text="Motivational Shayri"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/sad_sha"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/back3"
+            android:fontFamily="serif"
+            android:padding="10dp"
+            android:text="Sad Shayri"
+            android:textAllCaps="false"
+            android:layout_marginBottom="60dp"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

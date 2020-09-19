@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shayriworld">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SadShyriHindi"></activity>
+        <activity android:name=".SaadShayri" />
+        <activity android:name=".MotiShayriHindi" />
+        <activity android:name=".MotiSharyi" />
+        <activity android:name=".LoveShyriHindi" />
+        <activity android:name=".LoveShayri" />
+        <activity android:name=".FunnyShHindi" />
+        <activity android:name=".FunnyShayri" />
+        <activity android:name=".FrndShayriHindi" />
+        <activity android:name=".FrndShayri" />
+        <activity android:name=".BdayShayriHindi" />
+        <activity android:name=".BdayShayri" />
+        <activity android:name=".AttitudeShyriHindi" />
+        <activity android:name=".AttitudeShayri" />
+        <activity android:name=".EnglishFile" />
+        <activity android:name=".HindiFile" />
+        <activity android:name=".LanguagePage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
